@@ -1,0 +1,3 @@
+document.querySelector("body > ntp-app").shadowRoot.querySelector("ntp-customize-dialog").shadowRoot.querySelector("#customizeThemes").shadowRoot.querySelector("#colorPicker").oninput=function(){
+	this.dispatchEvent(new Event('change'));
+}
